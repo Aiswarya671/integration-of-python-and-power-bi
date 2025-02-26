@@ -59,3 +59,7 @@ data = json.dumps([{"Category": "Electronics", "Sales": 2000}])
 response = requests.post(url, data=data, headers={"Content-Type": "application/json"})
 
 print(response.status_code, response.text)
+
+## OUTPUT: 
+
+![Image](https://github.com/user-attachments/assets/e922049b-aaa6-4158-ab8a-abe60cebe14a)
